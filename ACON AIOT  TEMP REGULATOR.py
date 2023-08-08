@@ -106,4 +106,4 @@ while True:
         print(f"Turn off the AC")
         if(count>2):
             print("Turn off the light")
-#    time.sleep(10)
+     time.sleep(10)
