@@ -13,7 +13,6 @@ sum = 0
 def print_sound(indata, outdata, frames, time, status):
     global sum
     vol = np.linalg.norm(indata) * 10
-    print(vol)
     sum+=vol
 
 def sound_detect():
@@ -106,4 +105,4 @@ while True:
         print(f"Turn off the AC")
         if(count>2):
             print("Turn off the light")
-     time.sleep(10)
+    time.sleep(10)
